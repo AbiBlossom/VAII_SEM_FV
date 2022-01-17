@@ -1,0 +1,136 @@
+.h4 {
+    text-align: center;
+}
+
+
+/* bocne menu */
+.sidenav {
+    height: 100%;
+    width: 165px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #212529;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+
+.sidenav a {
+    padding: 5px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+.hlavna {
+    margin-left: 165px;
+    padding: 0px 0px;
+}
+
+.footer {
+
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 100px;
+    font-size: 18px;
+    background-color: #212529;
+    font-size: 18px;
+    color: #818181;
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .sidenav {width: 130px;}
+    .sidenav a {font-size: 15px;}
+    .hlavna {margin-left: 130px;}
+
+}
+
+@media (max-width: 768px) {
+    .sidenav {width: 100px;}
+    .sidenav a {font-size: 11px;}
+    .hlavna {margin-left: 100px;}
+
+}
+
+@media (max-width: 576px) {
+    .sidenav {
+        display: none;
+    }
+    .hlavna {margin-left: 0px;}
+    .footer {display: flex;}
+}
+
+
+/* orezanie obrazka */
+.cropped1 {
+    width: 100%; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+}
+
+/* okruhly obrazok na stred */
+.head2 {
+    max-width: 40%; /* width of container */
+    height: auto; /* height of container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* oddelovac */
+hr.solid {
+    border-top: 2px solid #bbb;
+}
+
+/* text na stred */
+.divText {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    flex: 80%;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.card{
+    background-color: lightgray;
+
+}
+
+.h1 {
+    color: darkgreen;
+    text-align: left;
+}
+
+.h1 a:hover {
+    color: black;
+}
+
+.img-fluid{
+    max-height: 350px;
+
+}
+
